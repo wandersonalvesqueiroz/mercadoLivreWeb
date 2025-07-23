@@ -1,6 +1,6 @@
 # 🛍️ Produto Web - Front-end React
 
-Este é o front-end de um sistema de catálogo de produtos, desenvolvido em **React** com **Vite**. Ele consome uma API REST que fornece dados sobre produtos, vendedores e formas de pagamento, definida por um contrato OpenAPI (Swagger).
+Este é o front-end de um sistema de produtos, desenvolvido em **React**. Ele consome uma API REST que fornece dados sobre produtos, vendedores e formas de pagamento, definida por um contrato OpenAPI (Swagger).
 
 ---
 
