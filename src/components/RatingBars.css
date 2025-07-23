@@ -1,0 +1,16 @@
+.rating-bars-container {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.rating-bar {
+  display: inline-block;
+  width: 52px;
+  vertical-align: middle;
+  margin: 0 0 0 4px;
+  transition: opacity 0.3s ease;
+}
+
+.rating-bars-container span:first-child {
+  margin-left: 0;
+}

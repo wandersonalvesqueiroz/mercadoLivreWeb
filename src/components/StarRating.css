@@ -1,0 +1,41 @@
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.rating-value {
+  font-weight: bold;
+}
+
+.stars {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.star-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  overflow: hidden;
+}
+
+.star-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc; /* Fundo cinza */
+  z-index: 0;
+}
+
+.star-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #FFD700; /* Amarelo */
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+}
